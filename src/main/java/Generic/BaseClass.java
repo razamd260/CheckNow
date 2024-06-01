@@ -10,10 +10,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import Pom.Login;
-import io.github.bonigarcia.wdm.WebDriverManager;
-@SuppressWarnings("unused")
+
 public class BaseClass {
-	protected WebDriverUtility web;
+   protected WebDriverUtility web;
 	protected PropertiesUtility pro;
 	public WebDriver driver;
 	protected Login log;
@@ -47,10 +46,7 @@ public class BaseClass {
     	
    	}
     
-    @Test
-   	public void test() {
-      
-   	}
+  
     
     @AfterMethod
    	public void logout() {

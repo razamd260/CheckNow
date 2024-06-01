@@ -44,7 +44,12 @@
     <version>2.11.0</version>
 </dependency>
 
-	  
+
+  	<dependency>
+  		<groupId>org.Vtiger</groupId>
+  		<artifactId>Vtiger</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
   <build>
 	    <plugins>
